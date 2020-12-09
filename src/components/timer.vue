@@ -1,10 +1,5 @@
 <template>
   <v-container class="fill-height mx-auto d-flex justify-space-around">
-    <ul class="list-group" v-sortable>
-      <li class="list-group-item border">Foo</li>
-      <li class="list-group-item border">Bar</li>
-      <li class="list-group-item border">Baz</li>
-    </ul>
     <!-- Year Card -->
     <v-hover v-slot="{ hover }" close-delay="200">
       <v-card
