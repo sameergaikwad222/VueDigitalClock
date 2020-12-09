@@ -98,7 +98,10 @@ export default {
       this.showSecond = true;
     },
     routeToMySite() {
-      window.open("https://sameergaikwad.com", "_blank");
+      window.open(
+        "https://github.com/sameergaikwad222/VueDigitalClock.git",
+        "_blank"
+      );
     }
   },
   watch: {
